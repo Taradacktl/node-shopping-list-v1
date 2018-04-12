@@ -27,8 +27,8 @@ ShoppingList.create('peppers', 4);
 
 //add recipes
 Recipes.create('french toast', ['2 eggs', '1/2 cup milk', 'dash cinnamon', 'bread']);
-Recipes.create('french toast', ['2 eggs', '1/2 cup milk', 'dash cinnamon', 'bread']);
-Recipes.create('french toast', ['2 eggs', '1/2 cup milk', 'dash cinnamon', 'bread']);
+Recipes.create('scrambled eggs and bacon', ['2 eggs', 'bacon']);
+Recipes.create('mimosa', ['orange juice', 'champagne']);
 
 // when the root of this route is called with GET, return
 // all current ShoppingList items by calling `ShoppingList.get()`
